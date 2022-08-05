@@ -27,14 +27,6 @@
 [![NEAR-RUst.png](https://i.postimg.cc/8kJmQGCy/NEAR-RUst.png)](https://postimg.cc/DmhXLtLs)
 
 
-
-
-
-
-
-
-
-
 Клонировал ```nearcore``` репозиторий 
 
 [![NEAR.png](https://i.postimg.cc/ydP47RnH/NEAR.png)](https://postimg.cc/JDGdqG96)
@@ -71,7 +63,7 @@ wget -O ~/.near/config.json https://s3-us-west-1.amazonaws.com/build.nearprotoco
 
 и убедился в полной синхронизации узла
 
-[![NEAR.png](https://i.postimg.cc/GpZ76xD2/NEAR.png)](https://postimg.cc/R3LLHfX5)
+[![image.png](https://i.postimg.cc/90dswtX0/image.png)](https://postimg.cc/XBvsT5C6)
 
 
 
