@@ -29,7 +29,9 @@ lscpu | grep -P '(?=.*avx )(?=.*sse4.2 )(?=.*cx16 )(?=.*popcnt )' > /dev/null \
 
 установил Rust ```curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh```
 
+
 [![NEAR-RUst.png](https://i.postimg.cc/8kJmQGCy/NEAR-RUst.png)](https://postimg.cc/DmhXLtLs)
+
 
 
 
@@ -73,7 +75,10 @@ wget -O ~/.near/config.json https://s3-us-west-1.amazonaws.com/build.nearprotoco
 
 и убедился в полной синхронизации узла
 
+
 [![NEAR.png](https://i.postimg.cc/GpZ76xD2/NEAR.png)](https://postimg.cc/R3LLHfX5)
+
+
 
 
 
