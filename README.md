@@ -52,9 +52,13 @@ lscpu | grep -P '(?=.*avx )(?=.*sse4.2 )(?=.*cx16 )(?=.*popcnt )' > /dev/null \
 
 [![NEAR-Genezis.png](https://i.postimg.cc/g0Sfxp8w/NEAR-Genezis.png)](https://postimg.cc/xkmsZWsY)
 
-Скачал config.json с модифицированными параметрами ```
-rm ~/.near/config.json 
-wget -O ~/.near/config.json https://s3-us-west-1.amazonaws.com/build.nearprotocol.com/nearcore-deploy/shardnet/config.json```
+Скачал config.json с модифицированными параметрами 
+
+```
+rm ~/.near/config.json
+wget -O ~/.near/config.json https://s3-us-west-1.amazonaws.com/build.nearprotocol.com/nearcore-deploy/shardnet/config.json
+```
+
 
 [![NEAR.png](https://i.postimg.cc/MpW6RWMt/NEAR.png)](https://postimg.cc/pp6MMMBn)
 
