@@ -3,9 +3,13 @@
 Для установки узла Near использовал сервер CPX31 с конфигурацией: CPU: 4-Core/ RAM: 8GB DDR4 / Storage: 500GB SSD
 
 Приверил совместимость функций CPU для установки узла , командой:
-``lscpu | grep -P '(?=.*avx )(?=.*sse4.2 )(?=.*cx16 )(?=.*popcnt )' > /dev/null \
+
+```
+lscpu | grep -P '(?=.*avx )(?=.*sse4.2 )(?=.*cx16 )(?=.*popcnt )' > /dev/null \
   && echo "Supported" \
-  || echo "Not supported" ``
+  || echo "Not supported"
+```
+> Supported
 
 удостоверился что моя Linux-машина обновлена до последней версии использовав команду ```sudo apt update && sudo apt upgrade -y```
 
