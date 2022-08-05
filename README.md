@@ -2,12 +2,7 @@
 
 Для установки узла Near использовал сервер CPX31 с конфигурацией: CPU: 4-Core/ RAM: 8GB DDR4 / Storage: 500GB SSD
 
-Приверил совместимость функций CPU для установки узла , командой: ```
-
-lscpu | grep -P '(?=.*avx )(?=.*sse4.2 )(?=.*cx16 )(?=.*popcnt )' > /dev/null \
-  && echo "Supported" \
-  || echo "Not supported"
-
+Приверил совместимость функций CPU для установки узла , командой:
 удостоверился что моя Linux-машина обновлена до последней версии использовав команду ```sudo apt update && sudo apt upgrade -y```
 
 [![NEAR-1.png](https://i.postimg.cc/NGZNVv9B/NEAR-1.png)](https://postimg.cc/CdHHBtsQ)
@@ -75,7 +70,6 @@ wget -O ~/.near/config.json https://s3-us-west-1.amazonaws.com/build.nearprotoco
 
 
 и убедился в полной синхронизации узла
-
 
 [![NEAR.png](https://i.postimg.cc/GpZ76xD2/NEAR.png)](https://postimg.cc/R3LLHfX5)
 
