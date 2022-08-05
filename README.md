@@ -48,7 +48,9 @@ lscpu | grep -P '(?=.*avx )(?=.*sse4.2 )(?=.*cx16 )(?=.*popcnt )' > /dev/null \
 [![NEAR.png](https://i.postimg.cc/RF53tkcR/NEAR.png)](https://postimg.cc/HJzsDPvc)
 
 далее инициализировал рабочий каталог и загрузил генезис файл
-```./target/release/neard --home ~/.near init --chain-id shardnet --download-genesis```
+```
+./target/release/neard --home ~/.near init --chain-id shardnet --download-genesis
+```
 
 [![NEAR-Genezis.png](https://i.postimg.cc/g0Sfxp8w/NEAR-Genezis.png)](https://postimg.cc/xkmsZWsY)
 
