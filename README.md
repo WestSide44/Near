@@ -1,1 +1,4 @@
-апаа [![NEAR.png](https://i.postimg.cc/tCj55MjS/NEAR.png)](https://postimg.cc/NLdmGbLm)
+```sh
+npm install --production
+NODE_ENV=production node app
+```
