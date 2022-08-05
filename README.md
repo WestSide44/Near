@@ -17,12 +17,14 @@
 
 установил все необходимые иструменты разработчика командой : 
 ```sudo apt install -y git binutils-dev libcurl4-openssl-dev zlib1g-dev libdw-dev libiberty-dev cmake gcc g++ python docker.io protobuf-compiler libssl-dev pkg-config clang llvm cargo```
+
 [![NEAR-2.png](https://i.postimg.cc/rz24MJxF/NEAR-2.png)](https://postimg.cc/RJGhTwgj)
 
 
 далее утановил и настроил ```Python pip``` используя команду ```sudo apt install python3-pip```
 
 установил Rust ```curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh```
+
 [![NEAR-RUst.png](https://i.postimg.cc/8kJmQGCy/NEAR-RUst.png)](https://postimg.cc/DmhXLtLs)
 
 Клонировал ```nearcore``` репозиторий 
@@ -33,6 +35,7 @@
 [![NEAR.png](https://i.postimg.cc/9FfR5t1c/NEAR.png)](https://postimg.cc/rzvF54vH)
 
 Собрал бинарные файлы ```cargo build -p neard --release --features shardnet```
+
 [![NEAR.png](https://i.postimg.cc/RF53tkcR/NEAR.png)](https://postimg.cc/HJzsDPvc)
 
 далее инициализировал рабочий каталог и загрузил генезис файл
@@ -65,6 +68,7 @@ wget -O ~/.near/config.json https://s3-us-west-1.amazonaws.com/build.nearprotoco
 и запустил узел валидатора
  Создал и развернул Пул стейкинга 
  [![NEAR.png](https://i.postimg.cc/50ydZ7vL/NEAR.png)](https://postimg.cc/McCFBY9p)
+ 
  [![NEAR.png](https://i.postimg.cc/bN7nr4wY/NEAR.png)](https://postimg.cc/XpgqDH5t)
  
  именил параметры комиссии пула и добавил в стейк 
