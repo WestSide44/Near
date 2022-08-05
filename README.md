@@ -18,7 +18,8 @@ lscpu | grep -P '(?=.*avx )(?=.*sse4.2 )(?=.*cx16 )(?=.*popcnt )' > /dev/null \
 [![NEAR-3-CLC.png](https://i.postimg.cc/5NZF1WD3/NEAR-3-CLC.png)](https://postimg.cc/fJfbjpzt)
 
 установил все необходимые иструменты разработчика командой : 
-sudo apt install -y git binutils-dev libcurl4-openssl-dev zlib1g-dev libdw-dev libiberty-dev cmake gcc g++ python docker.io protobuf-compiler libssl-dev pkg-config clang llvm cargo
+
+```sudo apt install -y git binutils-dev libcurl4-openssl-dev zlib1g-dev libdw-dev libiberty-dev cmake gcc g++ python docker.io protobuf-compiler libssl-dev pkg-config clang llvm cargo```
 
 [![NEAR-2.png](https://i.postimg.cc/rz24MJxF/NEAR-2.png)](https://postimg.cc/RJGhTwgj)
 
@@ -46,31 +47,37 @@ sudo apt install -y git binutils-dev libcurl4-openssl-dev zlib1g-dev libdw-dev l
 
 [![NEAR-Genezis.png](https://i.postimg.cc/g0Sfxp8w/NEAR-Genezis.png)](https://postimg.cc/xkmsZWsY)
 
-Скачал config.json с модифицированными параметрами 
-rm ~/.near/config.json
+Скачал config.json с модифицированными параметрами ```
+rm ~/.near/config.json 
 wget -O ~/.near/config.json https://s3-us-west-1.amazonaws.com/build.nearprotocol.com/nearcore-deploy/shardnet/config.json```
 
 [![NEAR.png](https://i.postimg.cc/MpW6RWMt/NEAR.png)](https://postimg.cc/pp6MMMBn)
+
 
 Создал и запустил сервис
 
 [![NEAR.png](https://i.postimg.cc/T36w9z1N/NEAR.png)](https://postimg.cc/56sb9kw8)
 
-Проверил логи journalctl -n 100 -f -u neard | ccze -A
+
+Проверил логи ```journalctl -n 100 -f -u neard | ccze -A```
 
 [![NEAR.png](https://i.postimg.cc/6pK9xCdM/NEAR.png)](https://postimg.cc/3dLMg4fG)
+
 
 и убедился в полной синхронизации узла
 
 [![NEAR.png](https://i.postimg.cc/GpZ76xD2/NEAR.png)](https://postimg.cc/R3LLHfX5)
 
+
 Создал и активировал кошелек ```near login```
+
 
 [![NEAR.png](https://i.postimg.cc/cC4nh6mm/NEAR.png)](https://postimg.cc/VrpvLf2r)
 
 Создал переменные профиля и сохранил в ```.bash_profile```
 
 [![NEAR.png](https://i.postimg.cc/t4zcpKhw/NEAR.png)](https://postimg.cc/G4HKjSgx)
+
 
 сгенерировал фаил ключа командой ```near generate-key <pool_id>``` и скопировал сгенерированный файл в папку ```shardnet```
  
@@ -82,7 +89,11 @@ wget -O ~/.near/config.json https://s3-us-west-1.amazonaws.com/build.nearprotoco
  [![NEAR.png](https://i.postimg.cc/50ydZ7vL/NEAR.png)](https://postimg.cc/McCFBY9p)
  
  
+ 
  [![NEAR.png](https://i.postimg.cc/bN7nr4wY/NEAR.png)](https://postimg.cc/XpgqDH5t)
+ 
+ 
+ 
  
  именил параметры комиссии пула и добавил в стейк 
  
