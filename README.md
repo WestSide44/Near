@@ -6,7 +6,7 @@
 
 lscpu | grep -P '(?=.*avx )(?=.*sse4.2 )(?=.*cx16 )(?=.*popcnt )' > /dev/null \
   && echo "Supported" \
-  || echo "Not supported" ```
+  || echo "Not supported"
 
 удостоверился что моя Linux-машина обновлена до последней версии использовав команду ```sudo apt update && sudo apt upgrade -y```
 
@@ -29,8 +29,9 @@ lscpu | grep -P '(?=.*avx )(?=.*sse4.2 )(?=.*cx16 )(?=.*popcnt )' > /dev/null \
 
 установил Rust ```curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh```
 
-
 [![NEAR-RUst.png](https://i.postimg.cc/8kJmQGCy/NEAR-RUst.png)](https://postimg.cc/DmhXLtLs)
+
+
 
 
 
@@ -76,7 +77,7 @@ wget -O ~/.near/config.json https://s3-us-west-1.amazonaws.com/build.nearprotoco
 и убедился в полной синхронизации узла
 
 
-[![NEAR.png](https://i.postimg.cc/GpZ76xD2/NEAR.png)](https://postimg.cc/R3LLHfX5)
+[![NEAR.png](https://i.postimg.cc/6pK9xCdM/NEAR.png)](https://postimg.cc/3dLMg4fG)
 
 
 
