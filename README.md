@@ -23,9 +23,7 @@
 далее утановил и настроил ```Python pip``` используя команду ```sudo apt install python3-pip```
 
 установил Rust ```curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh```
-
 [![NEAR-RUst.png](https://i.postimg.cc/8kJmQGCy/NEAR-RUst.png)](https://postimg.cc/DmhXLtLs)
-
 
 Клонировал ```nearcore``` репозиторий 
 
@@ -63,7 +61,10 @@ wget -O ~/.near/config.json https://s3-us-west-1.amazonaws.com/build.nearprotoco
 
 и убедился в полной синхронизации узла
 
+
 [![image.png](https://i.postimg.cc/90dswtX0/image.png)](https://postimg.cc/XBvsT5C6)
+
+
 
 
 
