@@ -65,7 +65,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 [![NEAR-Genezis.png](https://i.postimg.cc/g0Sfxp8w/NEAR-Genezis.png)](https://postimg.cc/xkmsZWsY)
 
-Скачал config.json с модифицированными параметрами 
+Скачал ```config.json``` с модифицированными параметрами 
 
 ```
 rm ~/.near/config.json
