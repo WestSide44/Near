@@ -11,13 +11,19 @@ lscpu | grep -P '(?=.*avx )(?=.*sse4.2 )(?=.*cx16 )(?=.*popcnt )' > /dev/null \
 ```
 > Supported
 
-удостоверился что моя Linux-машина обновлена до последней версии использовав команду ```sudo apt update && sudo apt upgrade -y```
+удостоверился что моя Linux-машина обновлена до последней версии использовав команду 
+```
+sudo apt update && sudo apt upgrade -y
+```
 
 [![NEAR-1.png](https://i.postimg.cc/NGZNVv9B/NEAR-1.png)](https://postimg.cc/CdHHBtsQ)
 
 установил  ```Node.js``` и ```npm```
 
-Установил NEAR-CLI используя команду ```sudo npm install -g near-cli```
+Установил NEAR-CLI используя команду 
+```
+sudo npm install -g near-cli
+```
 
 [![NEAR-3-CLC.png](https://i.postimg.cc/5NZF1WD3/NEAR-3-CLC.png)](https://postimg.cc/fJfbjpzt)
 
@@ -32,7 +38,10 @@ sudo apt install -y git binutils-dev libcurl4-openssl-dev zlib1g-dev libdw-dev l
 
 далее утановил и настроил ```Python pip``` используя команду ```sudo apt install python3-pip```
 
-установил Rust ```curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh ```
+установил Rust 
+```
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh 
+```
 
 [![image.png](https://i.postimg.cc/Sxxv716F/image.png)](https://postimg.cc/xcB59Rpt)
 
@@ -72,7 +81,10 @@ wget -O ~/.near/config.json https://s3-us-west-1.amazonaws.com/build.nearprotoco
 [![NEAR.png](https://i.postimg.cc/T36w9z1N/NEAR.png)](https://postimg.cc/56sb9kw8)
 
 
-Проверил логи ```journalctl -n 100 -f -u neard | ccze -A```
+Проверил логи 
+```
+journalctl -n 100 -f -u neard | ccze -A
+```
 
 [![NEAR.png](https://i.postimg.cc/6pK9xCdM/NEAR.png)](https://postimg.cc/3dLMg4fG)
 
@@ -99,7 +111,11 @@ wget -O ~/.near/config.json https://s3-us-west-1.amazonaws.com/build.nearprotoco
 [![NEAR.png](https://i.postimg.cc/t4zcpKhw/NEAR.png)](https://postimg.cc/G4HKjSgx)
 
 
-сгенерировал фаил ключа командой ```near generate-key <pool_id>``` и скопировал сгенерированный файл в папку ```shardnet```
+сгенерировал фаил ключа командой 
+```
+near generate-key <pool_id>
+``` 
+и скопировал сгенерированный файл в папку ```shardnet```
  
 отредактировал файл согласно оффициальной инструкции 
 
