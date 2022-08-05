@@ -32,7 +32,9 @@ lscpu | grep -P '(?=.*avx )(?=.*sse4.2 )(?=.*cx16 )(?=.*popcnt )' > /dev/null \
 
 установил Rust ```curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh ```
 
-[![NEAR-RUst.png](https://i.postimg.cc/8kJmQGCy/NEAR-RUst.png)](https://postimg.cc/DmhXLtLs)
+[![image.png](https://i.postimg.cc/Sxxv716F/image.png)](https://postimg.cc/xcB59Rpt)
+
+
 Клонировал ```nearcore``` репозиторий 
 
 [![NEAR.png](https://i.postimg.cc/ydP47RnH/NEAR.png)](https://postimg.cc/JDGdqG96)
