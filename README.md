@@ -77,7 +77,7 @@ wget -O ~/.near/config.json https://s3-us-west-1.amazonaws.com/build.nearprotoco
 и убедился в полной синхронизации узла
 
 
-[![NEAR.png](https://i.postimg.cc/6pK9xCdM/NEAR.png)](https://postimg.cc/3dLMg4fG)
+[![NEAR.png](https://i.postimg.cc/GpZ76xD2/NEAR.png)](https://postimg.cc/R3LLHfX5)
 
 
 
