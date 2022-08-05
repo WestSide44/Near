@@ -92,9 +92,14 @@ wget -O ~/.near/config.json https://s3-us-west-1.amazonaws.com/build.nearprotoco
 сгенерировал фаил ключа командой ```near generate-key <pool_id>``` и скопировал сгенерированный файл в папку ```shardnet```
  
 отредактировал файл согласно оффициальной инструкции 
+
 [![NEAR.png](https://i.postimg.cc/wBphVCpw/NEAR.png)](https://postimg.cc/qN1hBZgK)
+
+
+
 и запустил узел валидатора
- Создал и развернул Пул стейкинга 
+
+Создал и развернул Пул стейкинга 
  
  [![NEAR.png](https://i.postimg.cc/50ydZ7vL/NEAR.png)](https://postimg.cc/McCFBY9p)
  
