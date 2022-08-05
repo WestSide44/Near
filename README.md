@@ -3,9 +3,10 @@
 Для установки узла Near использовал сервер CPX31 с конфигурацией: CPU: 4-Core/ RAM: 8GB DDR4 / Storage: 500GB SSD
 
 Приверил совместимость функций CPU для установки узла , командой: 
-lscpu | grep -P '(?=.*avx )(?=.*sse4.2 )(?=.*cx16 )(?=.*popcnt )' > /dev/null \
+
+```lscpu | grep -P '(?=.*avx )(?=.*sse4.2 )(?=.*cx16 )(?=.*popcnt )' > /dev/null \
   && echo "Supported" \
-  || echo "Not supported" ```
+  || echo "Not supported"```
 
 удостоверился что моя Linux-машина обновлена до последней версии использовав команду ```sudo apt update && sudo apt upgrade -y```
 
@@ -30,6 +31,12 @@ lscpu | grep -P '(?=.*avx )(?=.*sse4.2 )(?=.*cx16 )(?=.*popcnt )' > /dev/null \
 
 [![NEAR-RUst.png](https://i.postimg.cc/8kJmQGCy/NEAR-RUst.png)](https://postimg.cc/DmhXLtLs)
 
+
+
+
+
+
+
 Клонировал ```nearcore``` репозиторий 
 
 [![NEAR.png](https://i.postimg.cc/ydP47RnH/NEAR.png)](https://postimg.cc/JDGdqG96)
@@ -38,7 +45,7 @@ lscpu | grep -P '(?=.*avx )(?=.*sse4.2 )(?=.*cx16 )(?=.*popcnt )' > /dev/null \
 
 [![NEAR.png](https://i.postimg.cc/9FfR5t1c/NEAR.png)](https://postimg.cc/rzvF54vH)
 
-Собрал бинарные файлы cargo build -p neard --release --features shardnet
+Собрал бинарные файлы ```cargo build -p neard --release --features shardnet```
 
 [![NEAR.png](https://i.postimg.cc/RF53tkcR/NEAR.png)](https://postimg.cc/HJzsDPvc)
 
@@ -67,6 +74,9 @@ wget -O ~/.near/config.json https://s3-us-west-1.amazonaws.com/build.nearprotoco
 и убедился в полной синхронизации узла
 
 [![NEAR.png](https://i.postimg.cc/GpZ76xD2/NEAR.png)](https://postimg.cc/R3LLHfX5)
+
+
+
 
 
 Создал и активировал кошелек ```near login```
